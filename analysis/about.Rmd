@@ -5,4 +5,10 @@ output:
     toc: false
 ---
 
-Describe your project.
+This respository was built using [workflowr](https://github.com/jdblischak/workflowr).
+
+workflowr provides three key initial pages, of which "About" is one of them.
+
+The about page is designed to hold a description of the project.
+
+For example, if this was a respository to support a publication, this page would contain the abstract, the equivalent of the PubMed Abstract.

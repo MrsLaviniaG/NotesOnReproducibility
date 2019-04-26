@@ -6,4 +6,9 @@ output:
     toc: false
 ---
 
-Welcome to my research website.
+This respository was built using [workflowr](https://github.com/jdblischak/workflowr).
+
+workflowr provides three key initial pages, of which "Home" is one of them.
+
+"Home" is a file called index.Rmd. This page is designed to be quite inclusive, a full listing of the site and files.  For an example, see [here](https://davismcc.github.io/fibroblast-clonality/index.html)
+
