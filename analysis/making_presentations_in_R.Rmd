@@ -1,0 +1,59 @@
+---
+title: "Making a presentation in R"
+author: "Lavinia Gordon"
+date: "3 May 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This page 
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Changing fonts
+
+Resources!
+
+[Google Fonts](https://fonts.google.com/) provide over 900 free fonts which you can download.
+It is very simple to embed your font of choice into your document.
+
+NOTE - fonts with two names, e.g. [Metal Mania](https://fonts.google.com/specimen/Metal+Mania), are linked to with a "+", i.e. "Metal+Mania", but are referred to in the CSS with a space, i.e. "Metal Mania"
+
+# including tweets
+
+Your YAML should include this line under _nature_:  
+`beforeInit: "https://platform.twitter.com/widgets.js"`
+
+
+# including images
+
+I didn't find the general image very helpful so here are some additional notes.
+Use include_graphics from knitr.
+
+```{r}
+# All defaults
+include_graphics(img1_path)
+```
+
+```{r, fig.width = 2}
+# Small fig.width
+include_graphics(img1_path)
+```
+
+```{r, fig.width = 4}
+# Bigger fig.width
+include_graphics(img1_path)
+```
+
+```{r  out.width = "20%"}
+include_graphics(img1_path) 
+```

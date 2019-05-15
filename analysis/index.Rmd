@@ -10,5 +10,13 @@ This respository was built using [workflowr](https://github.com/jdblischak/workf
 
 workflowr provides three key initial pages, of which "Home" is one of them.
 
-"Home" is a file called index.Rmd. This page is designed to be quite inclusive, a full listing of the site and files.  For an example, see [here](https://davismcc.github.io/fibroblast-clonality/index.html)
+"Home" is a file called index.Rmd. This page is designed to be quite inclusive, a full listing of the site and files, for example, the directory structure created by workflowr could be included here, or put links here to pages in your docs folder.
+
+Examples:
+
+[Human dermal fibroblast clonality project](https://davismcc.github.io/fibroblast-clonality/index.html)
+
+[Comparative transcriptomics of social insect queen pheromones](https://lukeholman.github.io/queen-pheromone-RNAseq/)
+
+[vireo](https://huangyh09.github.io/vireo-manual/)
 
