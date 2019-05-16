@@ -1,5 +1,5 @@
-target := assets/slides/rladiespresentation.html
-source := assets/rladiespresentation.Rmd
+target := docs/slides/rladiespresentation.html
+source := docs/slides/rladiespresentation.Rmd
 
 $(target): $(source)
 	Rscript -e 'library("rmarkdown"); render("$<", output_file = "$@", html_document())'
